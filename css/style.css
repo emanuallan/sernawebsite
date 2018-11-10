@@ -143,6 +143,49 @@ header img {
     width:250px;
 }
 
+/* Bio */
+
+#bio {
+    padding:15px;
+    color:#ffffff;
+}
+
+#emailbox {
+    width: 100%;
+    padding: 19px 50px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #B3A369;
+    margin-top: 5px;
+}
+
+#bio .highlight{
+    color:#B3A369;
+    font-weight:bold;
+}
+
+#bio .box {
+    float: center;
+    text-align:left;
+    width:30%;
+    padding:10px;
+    color:#ffffff;
+    background:#062f4f;
+    
+}
+
+#bio ul {
+    list-style-type:none;
+    background:#062f4f;
+}
+
+/* Summary */
+
+#summary {
+    color: #ffffff;
+    padding: 15px;
+}
+
 /* Boxes */
 
 #boxes {
@@ -153,12 +196,12 @@ header img {
     float:left;
     text-align:center;
     width:30%;
-    padding:10px;
+    padding:14px;
     color:#ffffff;
 }
 
 #boxes .box img {
-    width:250px;
+    width:275px;
 }
 
 /* Resume */
@@ -173,8 +216,6 @@ header img {
     color:#ffffff;
     margin-bottom:15px;
 }
-
-#resume .box 
 
 #resume .highlight{
     color:#062f4f;
