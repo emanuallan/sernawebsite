@@ -74,7 +74,7 @@ header .highlight, header .current a {
 }
 
 header a:hover {
-    color:#ff3b3f;
+    color:#396282;
     font-weight:bold;
     font-size: 14px;
 }
@@ -133,7 +133,7 @@ header a:hover {
 /* Boxes */
 
 #boxes {
-    margin-top:20px;
+    margin-top:0px;
 }
 
 #boxes .box {
@@ -145,7 +145,7 @@ header a:hover {
 }
 
 #boxes .box img {
-    width:250px;
+    width:310px;
 }
 
 /* Footer */
