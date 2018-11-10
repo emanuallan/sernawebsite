@@ -4,7 +4,7 @@ body {
     line-height:1.5;
     /* same as font: 15px/1.5 Arial, Helvetica, sans-serif; */
     padding:0;
-    background: #0e0b16;
+    background: #000000;
 
 }
 
@@ -31,6 +31,7 @@ ul {
 
 /*Header */
 header {
+    padding-top: 5px;
     background: #000000;
     color: #ffffff;
     min-height:70px;
@@ -98,24 +99,40 @@ header img {
     font-size:20px;
 }
 
-#newsletter {
+#connect {
     padding:15px;
     color:#ffffff;
     background:#062f4f;
 }
 
-/* Newsletter */
+/* connect */
 
-#newsletter h1 {
-    float:left;
+#emailbox {
+    width: 100%;
+    padding: 19px 50px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #B3A369;
+    margin-top: 5px;
 }
 
-#newsletter form {
+#connect img {
+    width: 50px;
+    float: right;
+    padding: 10px 10px 0 15px;
+}
+
+#connect h1 {
+    float:left;
+    margin-left: 10px;
+}
+
+#connect form {
     float:right;
     margin-top:15px;
 }
 
-#newsletter input[type="email"] {
+#connect input[type="email"] {
     padding:4px;
     height:25px;
     width:250px;
@@ -136,14 +153,37 @@ header img {
 }
 
 #boxes .box img {
-    width:90px;
+    width:250px;
 }
+
+/* Resume */
+
+#resume .container {
+    background: #062f4f;
+    padding: 20px;
+    float:left;
+    text-align:center;
+    width:100%;
+    padding:10px;
+    color:#ffffff;
+    margin-bottom:15px;
+}
+
+#resume .box 
+
+#resume .highlight{
+    color:#813772;
+    font-weight:bold;
+    font-size: 55px;
+}
+
+/* Footer */
 
 footer {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #ffffff;
-    background-color: #062f4f;
+    background-color: #000000;
     text-align: center;
 }
 
