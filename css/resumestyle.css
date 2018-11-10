@@ -84,8 +84,8 @@ header img {
 /* Showcase */ 
 
 #showcase {
-    min-height:420px;
-    background:url('../img/banner.jpg') no-repeat 0px -100px;
+    min-height:300px;
+    background:url('../img/banner2.jpg') no-repeat -200px -620px;
     text-align:center;
     color:#ffffff;
 }
@@ -96,7 +96,7 @@ header img {
     text-align: left;
     font-size:70px;
     padding-left: 15px;
-    margin-right:550px;
+    margin-right:668px;
     margin-bottom:0px;
 }
 
@@ -104,123 +104,36 @@ header img {
     font-size:20px;
 }
 
-#connect {
-    padding:15px;
-    color:#ffffff;
-    background:#062f4f;
-}
-
-/* connect */
-
-#emailbox {
-    width: 100%;
-    padding: 19px 50px;
-    text-align: center;
-    font-size: 16px;
-    background-color: #B3A369;
-    margin-top: 5px;
-}
-
-#connect img {
-    width: 50px;
-    float: right;
-    padding: 10px 10px 0 15px;
-}
-
-#connect h1 {
-    float:left;
-    margin-left: 10px;
-}
-
-#connect form {
-    float:right;
-    margin-top:15px;
-}
-
-#connect input[type="email"] {
-    padding:4px;
-    height:25px;
-    width:250px;
-}
-
-/* Bio */
-
-#bio {
-    padding:15px;
-    color:#ffffff;
-}
-
-#emailbox {
-    width: 100%;
-    padding: 19px 50px;
-    text-align: center;
-    font-size: 16px;
-    background-color: #B3A369;
-    margin-top: 5px;
-}
-
-#bio .highlight{
-    color:#B3A369;
-    font-weight:bold;
-}
-
-#bio .box {
-    float: center;
-    text-align:left;
-    width:30%;
-    padding:10px;
-    color:#ffffff;
-    background:#062f4f;
-    
-}
-
-#bio ul {
-    list-style-type:none;
-    background:#062f4f;
-}
-
-/* Summary */
-
-#summary {
-    color: #ffffff;
-    padding: 15px;
-}
-
-/* Boxes */
-
-#boxes {
-    margin-top:20px;
-}
-
-#boxes .box {
-    float:left;
-    text-align:center;
-    width:30%;
-    padding:14px;
-    color:#ffffff;
-}
-
-#boxes .box img {
-    width:275px;
-}
 
 /* Resume */
 
 #resume .container {
     background: #062f4f;
-    padding: 20px;
+    padding: 10px;
     float:left;
     text-align:center;
     width:100%;
-    padding:10px;
     color:#ffffff;
     margin-bottom:15px;
+    display:flex;
+}
+
+#resume .box {
+    float:left;
+    text-align:center;
+    flex:50%;
+    padding:14px;
+    color:#ffffff;
+}
+
+#resume .box img {
+    margin-top:15px;
 }
 
 #resume .highlight{
-    color:#062f4f;
+    color:#ffffff;
     font-weight:bold;
-    font-size: 55px;
+    font-size: 25px;
 }
 
 /* Footer */
