@@ -22,7 +22,7 @@ ul {
 
 .button1{
     height:38px;
-    background:#813772;
+    background:#062f4f;
     border: 0;
     padding-left: 20px;
     padding-right:20px;
@@ -66,13 +66,14 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color:#813772;
+    color:#062f4f;
     font-weight:bold;
 }
 
 header a:hover {
-    color:#491FC1;
+    color: #7C516D;
     font-weight:bold;
+    font-size: 14px;
 }
 
 header img {
@@ -83,16 +84,20 @@ header img {
 /* Showcase */ 
 
 #showcase {
-    min-height:400px;
-    background:url('../img/showcase2.jpg') no-repeat;
+    min-height:420px;
+    background:url('../img/banner.jpg') no-repeat 0px -100px;
     text-align:center;
     color:#ffffff;
 }
 
 #showcase h1{
+    background-color:#062f4f;
     margin-top:100px;
-    font-size:55px;
-    margin-bottom:10px;
+    text-align: left;
+    font-size:70px;
+    padding-left: 15px;
+    margin-right:550px;
+    margin-bottom:0px;
 }
 
 #showcase p{
@@ -172,7 +177,7 @@ header img {
 #resume .box 
 
 #resume .highlight{
-    color:#813772;
+    color:#062f4f;
     font-weight:bold;
     font-size: 55px;
 }
