@@ -1,0 +1,149 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    /* same as font: 15px/1.5 Arial, Helvetica, sans-serif; */
+    padding:0;
+    background: #0e0b16;
+
+}
+
+/* Globals*/
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+.button1{
+    height:38px;
+    background:#813772;
+    border: 0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
+/*Header */
+header {
+    background: #000000;
+    color: #ffffff;
+    min-height:70px;
+    border-bottom:#062f4f 3px solid;
+}
+
+header a {
+    columns: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float:left;
+    display:inline;
+    padding: 50px 20px 0 15px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav {
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a {
+    color:#813772;
+    font-weight:bold;
+}
+
+header a:hover {
+    color:#491FC1;
+    font-weight:bold;
+}
+
+header img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+/* Showcase */ 
+
+#showcase {
+    min-height:400px;
+    background:url('../img/showcase2.jpg') no-repeat;
+    text-align:center;
+    color:#ffffff;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+#newsletter {
+    padding:15px;
+    color:#ffffff;
+    background:#062f4f;
+}
+
+/* Newsletter */
+
+#newsletter h1 {
+    float:left;
+}
+
+#newsletter form {
+    float:right;
+    margin-top:15px;
+}
+
+#newsletter input[type="email"] {
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top:20px;
+}
+
+#boxes .box {
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+    color:#ffffff;
+}
+
+#boxes .box img {
+    width:90px;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #062f4f;
+    text-align: center;
+}
+
