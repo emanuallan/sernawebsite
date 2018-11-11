@@ -165,10 +165,11 @@ header img {
 }
 
 #bio .box {
-    float: center;
+    float:left;
     text-align:left;
     width:30%;
     padding:10px;
+    margin-left: 20px;
     color:#ffffff;
     background:#062f4f;
     
@@ -184,6 +185,8 @@ header img {
 #summary {
     color: #ffffff;
     padding: 15px;
+    margin-left:20px;
+    float:right;
 }
 
 /* Boxes */

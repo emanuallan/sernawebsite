@@ -34,13 +34,13 @@ header {
     padding-top: 5px;
     background: #000000;
     color: #ffffff;
-    min-height:60px;
+    min-height:70px;
     border-bottom:#7C516D 3px solid;
 }
 
 header #branding h1{
     margin:0;
-    font-size: 55px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 header li {
@@ -110,19 +110,20 @@ header a:hover {
 
 /* connect */
 
+
 #connect {
     background:#7C516D;
 }
 
 #connect .container{
-    margin-left: 170px;
+    margin-left: 260px;
     padding:5px;
     color:#ffffff;
 }
 
 #connect img {
     width: 50px;
-    padding: 5px 122px 0 0px;
+    padding: 5px 122px 0px 0px;
 }
 
 #connect h1 {
@@ -133,14 +134,14 @@ header a:hover {
 /* Boxes */
 
 #boxes {
-    margin-top:10px;
+    margin-top:20px;
 }
 
 #boxes .box {
     float:left;
     text-align:center;
     width:30%;
-    padding:0px;
+    padding:10px;
     color:#ffffff;
 }
 
