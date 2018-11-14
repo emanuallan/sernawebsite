@@ -85,7 +85,7 @@ header img {
 
 #showcase {
     min-height:420px;
-    background:url('../img/banner.jpg') no-repeat 0px -100px;
+    background:url('../img/banner.jpg') no-repeat 0px -102px;
     text-align:center;
     color:#ffffff;
 }
@@ -186,13 +186,16 @@ header img {
     color: #ffffff;
     padding: 15px;
     margin-left:20px;
+    margin-top: 15px;
     float:right;
+    border-bottom:#062f4f 3px solid;
+    border-top:#062f4f 3px solid;
 }
 
 /* Boxes */
 
-#boxes {
-    margin-top:20px;
+#boxes .container {
+    margin-top:30px;
 }
 
 #boxes .box {
